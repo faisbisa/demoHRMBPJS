@@ -53,11 +53,11 @@ WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setEncryptedText(findTestObject('Page_OrangeHRM/input_Password_oxd-input oxd-input--focus'), 'hUKwJTbofgPU9eVlw/CnDQ==')
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setText(findTestObject('Page_OrangeHRM/input_Username_oxd-input oxd-input--focus oxd-input--error'), 'TestAu1')
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_OrangeHRM/input_Confirm Password_oxd-input oxd-input--focus'), 
     'hUKwJTbofgPU9eVlw/CnDQ==')
