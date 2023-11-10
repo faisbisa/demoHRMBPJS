@@ -45,9 +45,9 @@ WebUI.click(findTestObject('Page_OrangeHRM/span_Enabled'))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('addUserPositive/Page_OrangeHRM/input'), 'Paul Collings')
+WebUI.setText(findTestObject('addUserPositive/Page_OrangeHRM/input'), 'Test 30 A Collings')
 
-WebUI.click(findTestObject('Page_OrangeHRM/span_Paul  Collings'))
+WebUI.click(findTestObject('Page_OrangeHRM/span_Test 30 A Collings'))
 
 WebUI.delay(5, FailureHandling.STOP_ON_FAILURE)
 
